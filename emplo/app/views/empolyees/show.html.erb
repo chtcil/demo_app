@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Firstname:</b>
+  <%= @empolyee.firstname %>
+</p>
+
+<p>
+  <b>Lastname:</b>
+  <%= @empolyee.lastname %>
+</p>
+
+<p>
+  <b>Birthday:</b>
+  <%= @empolyee.birthday %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @empolyee.email %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%= @empolyee.comment %>
+</p>
+
+
+<%= link_to 'Edit', edit_empolyee_path(@empolyee) %> |
+<%= link_to 'Back', empolyees_path %>
